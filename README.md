@@ -7,7 +7,8 @@ Proyecto de curso EL. Diseño de sistema de despliegue
  - Instrucciones con comandos. 
  
 #### Parte Mecánica
- - Revisar las articulaciones.
+ - Revisar articulaciones en CAD (Carpeta general de CAD: https://drive.google.com/drive/u/0/folders/1X1Ea6DyqA-4cPEp2hvyv38Jz5EprBwpk).
+   "NO MODIFICAR DIRECTAMENTE"
  - Leer CubesatRev 13 especificaciones de diseños (Tolerancias de diseños, dimensiones maximas de extrucción, estandar de dimensión). https://www.cubesat.org/resources.
  - Exportar las caras de los InterStage a DXF para el diseño del Board.
  - Crear articulaciones en los paneles.
