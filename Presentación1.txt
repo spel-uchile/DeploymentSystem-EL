@@ -1,0 +1,25 @@
+Puntos vistos:
+- Extrucciones maximas
+- Cambio de placa PC104 original por 4 placas en Interstage
+- Se identifican 3 Tipos de placas: IS A1 y A2, IS B1, IS B2 (saldia de payload)
+	- IS A1: Contiene el microcontolador y la coneccion al OBC (por I2C), 1 Switch, FTDI, 1 Mosfet
+	- IS B1: 2 sensores de temperatura, 1 switch, 1 Mosfet
+	- IS A2: 2 sensores de temperatura, 1 switch, 1 Mosfet
+	- IS B1: 2 sensores de temperatura, 1 switch, 1 Mosfet, solo un pico blade, contiene agujero de payload externo.
+
+- Excel con lista de componentes.	
+
+Wirepad ?
+
+
+Trabajo futuro:
+- IS: Falta conectar la resistencia (nicromo) en todas las placas
+- Definir posicion de interruptores
+- Diseño de soportes y ver si pueden ir en los IS.
+- Agregar vias separadas hacia bot.
+- Diseñar soporteds de seguridad de los paneles de despliegue para que no choquen con los paneles solares.
+
+
+
+
+
