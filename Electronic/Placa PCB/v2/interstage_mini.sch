@@ -73,96 +73,13 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="D3SH-A1L">
-<packages>
-<package name="SW_D3SH-A1L">
-<wire x1="-1.5" y1="1.45" x2="1.5" y2="1.45" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.45" x2="1.5" y2="-1.65" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.65" x2="-1.5" y2="-1.65" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.65" x2="-1.5" y2="1.45" width="0.127" layer="51"/>
-<wire x1="-2.05" y1="2.15" x2="1.5" y2="2.15" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="3.35" x2="1.5" y2="3.35" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="4.25" x2="1.5" y2="4.25" width="0.127" layer="21"/>
-<wire x1="-2.05" y1="2.15" x2="-2.25" y2="1.95" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.25" y1="1.95" x2="-2.25" y2="1.45" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="1.45" x2="-1.5" y2="1.45" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.15" x2="1.5" y2="1.45" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4.25" x2="1.5" y2="3.35" width="0.127" layer="21"/>
-<wire x1="1.5" y1="3.35" x2="1.5" y2="2.15" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="4.25" x2="-2.25" y2="3.35" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="3.35" x2="-2.25" y2="2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="4.5" x2="2.45" y2="4.5" width="0.05" layer="39"/>
-<wire x1="2.45" y1="4.5" x2="2.45" y2="-2" width="0.05" layer="39"/>
-<wire x1="2.45" y1="-2" x2="-2.5" y2="-2" width="0.05" layer="39"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="4.5" width="0.05" layer="39"/>
-<text x="-2.50098125" y="-2.000790625" size="1.2705" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.75713125" y="-2.0038" size="1.272409375" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-1.5" y1="1.45" x2="1.5" y2="1.45" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="0.8" x2="-1.5" y2="1.45" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.65" x2="1.5" y2="1.45" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.65" x2="1.5" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.65" x2="1.5" y2="-0.8" width="0.127" layer="21"/>
-<hole x="0" y="1.15" drill="0.75"/>
-<hole x="0" y="-0.85" drill="0.75"/>
-<smd name="1" x="-1.65" y="0" dx="1.1" dy="1.1" layer="1"/>
-<smd name="2" x="1.65" y="-0.075" dx="1.1" dy="0.95" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="D3SH-A1L">
-<wire x1="-7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="-1.27" y2="11.43" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="11.43" x2="1.27" y2="8.89" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="1.27" y2="8.89" width="0.254" layer="94" curve="-90"/>
-<wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<text x="-7.625959375" y="12.7099" size="1.779390625" layer="95">&gt;NAME</text>
-<text x="-7.63265" y="-10.1769" size="1.78095" layer="96">&gt;VALUE</text>
-<pin name="COM" x="-12.7" y="0" length="middle" direction="pas"/>
-<pin name="NO" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="D3SH-A1L" prefix="S">
-<description>Switch Detector N.O. SPST Lever J-Bend 0.001A 5VDC SMD T/R</description>
-<gates>
-<gate name="G$1" symbol="D3SH-A1L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_D3SH-A1L">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PURCHASE_URL" value=""/>
-<attribute name="DESCRIPTION" value=" Switch SPST-NO Surface Mount, Right Angle "/>
-<attribute name="MF" value="Omron"/>
-<attribute name="MP" value="D3SH-A1L"/>
-<attribute name="PACKAGE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="conector">
 <packages>
 <package name="CONECTOR">
-<smd name="NO" x="0" y="2" dx="0.5" dy="4" layer="1" rot="R180"/>
-<smd name="VCC" x="-2.54" y="2" dx="0.5" dy="4" layer="1" rot="R180"/>
-<smd name="NC" x="2.5" y="2" dx="0.5" dy="4" layer="1" rot="R180"/>
+<smd name="NO" x="0" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
+<smd name="VCC" x="-2.54" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
+<smd name="NC" x="2.54" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
+<text x="0" y="0" size="1.27" layer="21">3PIN_CONECTOR</text>
 </package>
 </packages>
 <symbols>
@@ -174,6 +91,7 @@
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-5.08" size="1.27" layer="94">3PIN_CONECTOR</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -183,6 +101,54 @@
 </gates>
 <devices>
 <device name="" package="CONECTOR">
+<connects>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SWITCH">
+<packages>
+<package name="SWITCH">
+<pad name="NO" x="0" y="0" drill="1.4" diameter="2" shape="offset" rot="R90"/>
+<pad name="NC" x="2.54" y="0" drill="1.4" diameter="2" shape="offset" rot="R90"/>
+<pad name="VCC" x="-2.54" y="0" drill="1.4" diameter="2" shape="offset" rot="R90"/>
+<wire x1="-3.75" y1="5.3" x2="3.75" y2="5.3" width="0.127" layer="21"/>
+<wire x1="3.75" y1="5.3" x2="3.75" y2="1.3" width="0.127" layer="21"/>
+<wire x1="3.75" y1="1.3" x2="-3.75" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="1.3" x2="-3.75" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="6.6" x2="3.75" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="5.3" x2="-3.75" y2="6.6" width="0.127" layer="21"/>
+<wire x1="3.75" y1="5.3" x2="3.75" y2="6.6" width="0.127" layer="21"/>
+<text x="0" y="3.81" size="1.27" layer="21">AV4524_SWITCH</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SWITCH">
+<pin name="VCC" x="-5.08" y="5.08" length="middle" rot="R270"/>
+<pin name="NO" x="0" y="5.08" length="middle" rot="R270"/>
+<pin name="NC" x="5.08" y="5.08" length="middle" rot="R270"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-5.08" size="1.27" layer="94">AV4524_SWITCH</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH">
+<gates>
+<gate name="G$1" symbol="SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SWITCH">
 <connects>
 <connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="NO" pad="NO"/>
@@ -206,45 +172,54 @@
 </class>
 </classes>
 <parts>
-<part name="S1" library="D3SH-A1L" deviceset="D3SH-A1L" device=""/>
 <part name="U$1" library="conector" deviceset="CONECTOR" device=""/>
+<part name="U$2" library="SWITCH" deviceset="SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="S1" gate="G$1" x="60.96" y="60.96" smashed="yes">
-<attribute name="NAME" x="53.334040625" y="73.6699" size="1.779390625" layer="95"/>
-<attribute name="VALUE" x="53.32735" y="50.7831" size="1.78095" layer="96"/>
-</instance>
-<instance part="U$1" gate="G$1" x="60.96" y="27.94" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="0" y="10.16" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="0" y="40.64" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="COM"/>
-<wire x1="48.26" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="43.18" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="17.78" width="0.1524" layer="91"/>
+<label x="-5.08" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<label x="55.88" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="-5.08" y1="45.72" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
+<label x="-5.08" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="NO" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="NO"/>
-<wire x1="73.66" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<label x="78.74" y="60.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="NO"/>
+<wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.1524" layer="91"/>
+<label x="0" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="NO"/>
-<wire x1="60.96" y1="33.02" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
-<label x="60.96" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="NO"/>
+<wire x1="0" y1="45.72" x2="0" y2="50.8" width="0.1524" layer="91"/>
+<label x="0" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="NC"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<label x="5.08" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="NC"/>
+<wire x1="5.08" y1="45.72" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
+<label x="5.08" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
