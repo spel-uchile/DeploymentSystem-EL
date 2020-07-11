@@ -121,9 +121,9 @@
 <library name="conector">
 <packages>
 <package name="CONECTOR">
-<smd name="NO" x="0" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
-<smd name="VCC" x="-2.54" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
-<smd name="NC" x="2.54" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
+<smd name="NO" x="0" y="1" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="VCC" x="-2.54" y="1" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="NC" x="2.54" y="1" dx="1.5" dy="2" layer="1" rot="R180"/>
 <text x="0" y="0" size="1.27" layer="21">3PIN_CONECTOR</text>
 </package>
 </packages>
@@ -335,16 +335,17 @@ design rules under a new name.</description>
 <signals>
 <signal name="VCC">
 <contactref element="S1" pad="1"/>
-<wire x1="3.96" y1="7.89" x2="4.85" y2="7.89" width="0.5" layer="1"/>
 <contactref element="U$1" pad="VCC"/>
-<wire x1="3.96" y1="1" x2="3.96" y2="7.89" width="0.5" layer="1"/>
+<wire x1="3.96" y1="4.5" x2="3.96" y2="1" width="1" layer="1"/>
+<wire x1="4.85" y1="7.89" x2="4.85" y2="5.39" width="1" layer="1"/>
+<wire x1="4.85" y1="5.39" x2="3.96" y2="4.5" width="1" layer="1"/>
 </signal>
 <signal name="NO">
 <contactref element="S1" pad="2"/>
-<wire x1="6.5" y1="5.5" x2="8.15" y2="5.5" width="0.5" layer="1"/>
-<wire x1="8.15" y1="5.5" x2="8.15" y2="7.815" width="0.5" layer="1"/>
+<wire x1="8.15" y1="7.815" x2="8.15" y2="5.5" width="1" layer="1"/>
 <contactref element="U$1" pad="NO"/>
-<wire x1="6.5" y1="1" x2="6.5" y2="5.5" width="0.5" layer="1"/>
+<wire x1="8.15" y1="5.5" x2="6.5" y2="3.85" width="1" layer="1"/>
+<wire x1="6.5" y1="3.85" x2="6.5" y2="1" width="1" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

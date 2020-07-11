@@ -160,9 +160,9 @@
 <library name="conector">
 <packages>
 <package name="CONECTOR">
-<smd name="NO" x="0" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
-<smd name="VCC" x="-2.54" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
-<smd name="NC" x="2.54" y="1" dx="0.5" dy="2" layer="1" rot="R180"/>
+<smd name="NO" x="0" y="1" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="VCC" x="-2.54" y="1" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="NC" x="2.54" y="1" dx="1.5" dy="2" layer="1" rot="R180"/>
 <text x="0" y="0" size="1.27" layer="21">3PIN_CONECTOR</text>
 </package>
 </packages>
