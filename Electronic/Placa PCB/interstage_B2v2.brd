@@ -583,7 +583,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="Q1" library="SamacSys_Parts" package="SOT95P230X110-3N" value="PMV16XNR" x="34.8" y="14.5" smashed="yes">
+<element name="MOSFET4" library="SamacSys_Parts" package="SOT95P230X110-3N" value="PMV16XNR" x="34.8" y="14.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Nexperia PMV16XNR N-channel MOSFET, 8.6 A, 20 V PMV16XN, 3-Pin SOT-23" x="33.3" y="14.5" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.1mm" x="33.3" y="14.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="33.3" y="14.5" size="1.778" layer="27" display="off"/>
@@ -622,7 +622,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="MSOP-8 Microchip" x="22" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="25.22695" y="16.94341875" size="1.272740625" layer="27"/>
 </element>
-<element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="4.35" y="14.5" smashed="yes" rot="R90">
+<element name="PINES_SWITCH" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="4.35" y="14.5" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="4.35" y="14.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="4.35" y="14.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="2.699" y="10.69" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -662,7 +662,7 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="Q1" pad="2"/>
+<contactref element="MOSFET4" pad="2"/>
 <contactref element="T7" pad="4"/>
 <contactref element="T8" pad="4"/>
 <polygon width="0.5" layer="1">
@@ -691,31 +691,30 @@ design rules under a new name.</description>
 <via x="15.5" y="24.5" extent="1-16" drill="0.35" diameter="1"/>
 </signal>
 <signal name="INT0">
-<contactref element="SV1" pad="2"/>
+<contactref element="PINES_SWITCH" pad="2"/>
 <contactref element="CONEXION_A2" pad="6"/>
 <contactref element="R_SWITCH" pad="2"/>
-<wire x1="11.9" y1="11.375" x2="9" y2="11.375" width="0.8" layer="1"/>
-<wire x1="9" y1="11.375" x2="5.875" y2="14.5" width="0.8" layer="1"/>
-<wire x1="5.875" y1="14.5" x2="4.35" y2="14.5" width="0.5" layer="1"/>
+<wire x1="11.9" y1="11.375" x2="8.5" y2="11.375" width="0.8" layer="1"/>
+<wire x1="8.5" y1="11.375" x2="5.375" y2="14.5" width="0.8" layer="1"/>
+<wire x1="5.375" y1="14.5" x2="4.35" y2="14.5" width="0.8" layer="1"/>
 <wire x1="11.9" y1="11.375" x2="14" y2="11.375" width="0.8" layer="1"/>
 <wire x1="14" y1="11.375" x2="19.375" y2="6" width="0.8" layer="1"/>
 <wire x1="19.375" y1="6" x2="30.525" y2="6" width="0.8" layer="1"/>
 </signal>
 <signal name="OC1A">
-<contactref element="Q1" pad="1"/>
+<contactref element="MOSFET4" pad="1"/>
 <contactref element="R_MOSFET" pad="1"/>
 <contactref element="CONEXION_A2" pad="5"/>
 <wire x1="11.9" y1="12.625" x2="16" y2="12.625" width="0.8" layer="1"/>
-<wire x1="30.5" y1="13" x2="30.5" y2="9.025" width="1.5" layer="1"/>
+<wire x1="30.5" y1="14" x2="30.5" y2="9.025" width="1.5" layer="1"/>
 <wire x1="30.525" y1="9" x2="30.5" y2="9.025" width="0.5" layer="1"/>
-<wire x1="33.7" y1="15.45" x2="32.95" y2="15.45" width="1.5" layer="1"/>
-<wire x1="32.95" y1="15.45" x2="30.5" y2="13" width="1.5" layer="1"/>
+<wire x1="33.7" y1="15.45" x2="31.95" y2="15.45" width="1.5" layer="1"/>
+<wire x1="31.95" y1="15.45" x2="30.5" y2="14" width="1.5" layer="1"/>
 <wire x1="16" y1="12.625" x2="19.625" y2="9" width="1.5" layer="1"/>
-<wire x1="19.625" y1="9" x2="26.5" y2="9" width="1.5" layer="1"/>
-<wire x1="26.5" y1="9" x2="30.525" y2="9" width="1.5" layer="1"/>
+<wire x1="19.625" y1="9" x2="30.525" y2="9" width="1.5" layer="1"/>
 </signal>
 <signal name="NICROMO">
-<contactref element="Q1" pad="3"/>
+<contactref element="MOSFET4" pad="3"/>
 <via x="40" y="14.5" extent="1-16" drill="1.8" diameter="4"/>
 <wire x1="35.9" y1="14.5" x2="40" y2="14.5" width="1.5" layer="1"/>
 </signal>
@@ -728,7 +727,7 @@ design rules under a new name.</description>
 <contactref element="T8" pad="5"/>
 <contactref element="T8" pad="6"/>
 <wire x1="19.8" y1="19.025" x2="17.475" y2="19.025" width="0.5" layer="16"/>
-<contactref element="SV1" pad="1"/>
+<contactref element="PINES_SWITCH" pad="1"/>
 <contactref element="CONEXION_A2" pad="1"/>
 <wire x1="11.9" y1="17.625" x2="14.275" y2="17.625" width="0.8" layer="1"/>
 <via x="25" y="14.5" extent="1-16" drill="1.8" diameter="4"/>
@@ -769,10 +768,10 @@ design rules under a new name.</description>
 <contactref element="CONEXION_A2" pad="3"/>
 <wire x1="24.2" y1="20.325" x2="27" y2="20.325" width="0.5" layer="16"/>
 <wire x1="45.2" y1="20.325" x2="44" y2="20.325" width="0.5" layer="16"/>
-<wire x1="45.2" y1="20.325" x2="47.5" y2="20.325" width="0.5" layer="16"/>
+<wire x1="45.2" y1="20.325" x2="46.5" y2="20.325" width="0.5" layer="16"/>
 <via x="46" y="6.5" extent="1-16" drill="0.35" diameter="1"/>
-<wire x1="48" y1="19.825" x2="47.5" y2="20.325" width="0.5" layer="16"/>
-<wire x1="48" y1="19.825" x2="48" y2="8.5" width="0.8" layer="16"/>
+<wire x1="47.5" y1="19.325" x2="46.5" y2="20.325" width="0.5" layer="16"/>
+<wire x1="47.5" y1="19.325" x2="47.5" y2="8" width="0.8" layer="16"/>
 <wire x1="46" y1="6.625" x2="42.5" y2="6.625" width="0.8" layer="1"/>
 <wire x1="46" y1="6.625" x2="46" y2="6.5" width="0.8" layer="1"/>
 <via x="9.5" y="15.5" extent="1-16" drill="0.35" diameter="1"/>
@@ -789,7 +788,7 @@ design rules under a new name.</description>
 <wire x1="28.7" y1="25.5" x2="42" y2="25.5" width="0.5" layer="16"/>
 <wire x1="27" y1="20.325" x2="27.7" y2="21.025" width="0.5" layer="16"/>
 <wire x1="27.7" y1="21.025" x2="27.7" y2="24.5" width="0.5" layer="16"/>
-<wire x1="46" y1="6.5" x2="48" y2="8.5" width="0.8" layer="16"/>
+<wire x1="46" y1="6.5" x2="47.5" y2="8" width="0.8" layer="16"/>
 </signal>
 <signal name="SDA">
 <contactref element="CONEXION_A1" pad="2"/>
@@ -800,24 +799,24 @@ design rules under a new name.</description>
 <wire x1="24.2" y1="20.975" x2="25.5" y2="20.975" width="0.5" layer="16"/>
 <contactref element="CONEXION_A2" pad="4"/>
 <via x="7.5" y="15.5" extent="1-16" drill="0.35" diameter="1"/>
-<wire x1="48" y1="24.5" x2="48" y2="23" width="0.8" layer="16"/>
 <wire x1="45.2" y1="20.975" x2="46.5" y2="20.975" width="0.5" layer="16"/>
 <wire x1="26.4" y1="21.875" x2="26.4" y2="27" width="0.5" layer="16"/>
 <wire x1="26.4" y1="27" x2="45.5" y2="27" width="0.8" layer="16"/>
 <wire x1="7.5" y1="15.5" x2="7.5" y2="24" width="0.8" layer="16"/>
 <wire x1="36.5" y1="2" x2="10.5" y2="2" width="0.8" layer="1"/>
 <via x="10.5" y="2" extent="1-16" drill="0.35" diameter="1"/>
-<wire x1="11.9" y1="13.875" x2="9.125" y2="13.875" width="0.8" layer="1"/>
-<wire x1="9.125" y1="13.875" x2="7.5" y2="15.5" width="0.8" layer="1"/>
+<wire x1="11.9" y1="13.875" x2="8.625" y2="13.875" width="0.8" layer="1"/>
+<wire x1="8.625" y1="13.875" x2="7.5" y2="15" width="0.8" layer="1"/>
+<wire x1="7.5" y1="15" x2="7.5" y2="15.5" width="0.8" layer="1"/>
 <wire x1="10.5" y1="2" x2="9" y2="2" width="0.8" layer="16"/>
 <wire x1="9" y1="2" x2="7.5" y2="3.5" width="0.8" layer="16"/>
 <wire x1="7.5" y1="3.5" x2="7.5" y2="15.5" width="0.8" layer="16"/>
 <wire x1="7.5" y1="24" x2="10.5" y2="27" width="0.8" layer="16"/>
 <wire x1="10.5" y1="27" x2="26.4" y2="27" width="0.8" layer="16"/>
-<wire x1="45.5" y1="27" x2="48" y2="24.5" width="0.8" layer="16"/>
-<wire x1="46.5" y1="20.975" x2="48" y2="22.475" width="0.5" layer="16"/>
-<wire x1="48" y1="22.475" x2="48" y2="23" width="0.5" layer="16"/>
+<wire x1="45.5" y1="27" x2="47.5" y2="25" width="0.8" layer="16"/>
+<wire x1="47.5" y1="21.975" x2="46.5" y2="20.975" width="0.5" layer="16"/>
 <wire x1="25.5" y1="20.975" x2="26.4" y2="21.875" width="0.5" layer="16"/>
+<wire x1="47.5" y1="25" x2="47.5" y2="21.975" width="0.8" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -827,6 +826,18 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="5,16,4d44fe4ba24cee16"/>
+<approved hash="5,16,2ce7f55601d178a1"/>
+<approved hash="5,16,5115d32817115426"/>
+<approved hash="5,16,79e13164b44307aa"/>
+<approved hash="5,16,e54f6ce25017918f"/>
+<approved hash="5,16,41dd8c6c6cd1789b"/>
+<approved hash="5,16,ab001b279054de56"/>
+<approved hash="5,16,40ec211025e3442e"/>
+<approved hash="5,16,da7a2ef32a3a28d9"/>
+<approved hash="5,16,00f24c5cd4afa88b"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
