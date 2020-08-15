@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
@@ -161,26 +161,22 @@
 </layers>
 <board>
 <plain>
-<wire x1="-3.45" y1="17" x2="-3.45" y2="19.4" width="0.001" layer="20"/>
-<wire x1="-3.45" y1="19.4" x2="-0.05" y2="19.4" width="0.001" layer="20"/>
-<wire x1="-0.05" y1="19.4" x2="-0.05" y2="17" width="0.001" layer="20"/>
-<wire x1="-0.05" y1="17" x2="-3.45" y2="17" width="0.001" layer="20"/>
-<wire x1="-3.45" y1="9.6" x2="-3.45" y2="12" width="0.001" layer="20"/>
-<wire x1="-3.45" y1="12" x2="-0.05" y2="12" width="0.001" layer="20"/>
+<wire x1="69.3" y1="12" x2="69.3" y2="9.6" width="0.001" layer="20"/>
+<wire x1="69.3" y1="9.6" x2="65.9" y2="9.6" width="0.001" layer="20"/>
+<wire x1="65.9" y1="9.6" x2="65.9" y2="12" width="0.001" layer="20"/>
+<wire x1="65.9" y1="12" x2="69.3" y2="12" width="0.001" layer="20"/>
+<wire x1="69.3" y1="19.4" x2="69.3" y2="17" width="0.001" layer="20"/>
+<wire x1="69.3" y1="17" x2="65.9" y2="17" width="0.001" layer="20"/>
+<wire x1="65.9" y1="17" x2="65.9" y2="19.4" width="0.001" layer="20"/>
+<wire x1="65.9" y1="19.4" x2="69.3" y2="19.4" width="0.001" layer="20"/>
 <wire x1="-0.05" y1="12" x2="-0.05" y2="9.6" width="0.001" layer="20"/>
 <wire x1="-0.05" y1="9.6" x2="-3.45" y2="9.6" width="0.001" layer="20"/>
-<wire x1="1.27" y1="0" x2="63.73" y2="0" width="0.001" layer="20"/>
-<wire x1="63.73" y1="0" x2="65" y2="1.27" width="0.001" layer="20" curve="90"/>
-<wire x1="65" y1="1.27" x2="65" y2="4.73" width="0.001" layer="20"/>
-<wire x1="65" y1="4.73" x2="66.27" y2="6" width="0.001" layer="20" curve="-90"/>
-<wire x1="66.27" y1="6" x2="72.48" y2="6" width="0.001" layer="20"/>
-<wire x1="72.48" y1="6" x2="73.75" y2="7.27" width="0.001" layer="20" curve="90"/>
-<wire x1="73.75" y1="7.27" x2="73.75" y2="21.73" width="0.001" layer="20"/>
-<wire x1="73.75" y1="21.73" x2="72.48" y2="23" width="0.001" layer="20" curve="90"/>
-<wire x1="72.48" y1="23" x2="66.27" y2="23" width="0.001" layer="20"/>
-<wire x1="66.27" y1="23" x2="65" y2="24.27" width="0.001" layer="20" curve="-90"/>
-<wire x1="65" y1="24.27" x2="65" y2="27.73" width="0.001" layer="20"/>
-<wire x1="65" y1="27.73" x2="63.73" y2="29" width="0.001" layer="20" curve="90"/>
+<wire x1="-3.45" y1="9.6" x2="-3.45" y2="12" width="0.001" layer="20"/>
+<wire x1="-3.45" y1="12" x2="-0.05" y2="12" width="0.001" layer="20"/>
+<wire x1="-0.05" y1="19.4" x2="-0.05" y2="17" width="0.001" layer="20"/>
+<wire x1="-0.05" y1="17" x2="-3.45" y2="17" width="0.001" layer="20"/>
+<wire x1="-3.45" y1="17" x2="-3.45" y2="19.4" width="0.001" layer="20"/>
+<wire x1="-3.45" y1="19.4" x2="-0.05" y2="19.4" width="0.001" layer="20"/>
 <wire x1="63.73" y1="29" x2="1.27" y2="29" width="0.001" layer="20"/>
 <wire x1="1.27" y1="29" x2="0" y2="27.73" width="0.001" layer="20" curve="90"/>
 <wire x1="0" y1="27.73" x2="0" y2="24.27" width="0.001" layer="20"/>
@@ -193,12 +189,29 @@
 <wire x1="-1.27" y1="6" x2="0" y2="4.73" width="0.001" layer="20" curve="-90"/>
 <wire x1="0" y1="4.73" x2="0" y2="1.27" width="0.001" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.001" layer="20" curve="90"/>
+<wire x1="1.27" y1="0" x2="63.73" y2="0" width="0.001" layer="20"/>
+<wire x1="63.73" y1="0" x2="65" y2="1.27" width="0.001" layer="20" curve="90"/>
+<wire x1="65" y1="1.27" x2="65" y2="4.73" width="0.001" layer="20"/>
+<wire x1="65" y1="4.73" x2="66.27" y2="6" width="0.001" layer="20" curve="-90"/>
+<wire x1="66.27" y1="6" x2="72.48" y2="6" width="0.001" layer="20"/>
+<wire x1="72.48" y1="6" x2="73.75" y2="7.27" width="0.001" layer="20" curve="90"/>
+<wire x1="73.75" y1="7.27" x2="73.75" y2="21.73" width="0.001" layer="20"/>
+<wire x1="73.75" y1="21.73" x2="72.48" y2="23" width="0.001" layer="20" curve="90"/>
+<wire x1="72.48" y1="23" x2="66.27" y2="23" width="0.001" layer="20"/>
+<wire x1="66.27" y1="23" x2="65" y2="24.27" width="0.001" layer="20" curve="-90"/>
+<wire x1="65" y1="24.27" x2="65" y2="27.73" width="0.001" layer="20"/>
+<wire x1="65" y1="27.73" x2="63.73" y2="29" width="0.001" layer="20" curve="90"/>
+<circle x="67.5" y="14.5" radius="0.9" width="0.001" layer="20"/>
+<circle x="52.99786875" y="20.05521875" radius="0.9" width="0.001" layer="20"/>
+<circle x="52.99786875" y="8.94478125" radius="0.9" width="0.001" layer="20"/>
+<circle x="61.45211875" y="8.94478125" radius="0.9" width="0.001" layer="20"/>
+<circle x="61.45211875" y="20.05521875" radius="0.9" width="0.001" layer="20"/>
+<circle x="57.225" y="14.5" radius="5" width="0.001" layer="20"/>
 <circle x="-1.75" y="14.5" radius="0.9" width="0.001" layer="20"/>
-<circle x="57.225" y="14.5" radius="7.4" width="0.001" layer="20"/>
-<circle x="1.975" y="3.525" radius="1.25" width="0.001" layer="20"/>
-<circle x="62.975" y="25.525" radius="1.25" width="0.001" layer="20"/>
-<circle x="62.975" y="3.525" radius="1.25" width="0.001" layer="20"/>
-<circle x="1.975" y="25.525" radius="1.25" width="0.001" layer="20"/>
+<circle x="63.025" y="25.475" radius="1.25" width="0.001" layer="20"/>
+<circle x="2.025" y="3.475" radius="1.25" width="0.001" layer="20"/>
+<circle x="2.025" y="25.475" radius="1.25" width="0.001" layer="20"/>
+<circle x="63.025" y="3.475" radius="1.25" width="0.001" layer="20"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
