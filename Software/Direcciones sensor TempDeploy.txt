@@ -1,0 +1,23 @@
+
+Direcciones de sensores de temperatura del despliegue MCP9808T.
+
+ - ISA1 (microcontrolador):
+	- Dirección: 000 (T1)
+	- Dirección: 001 (T2)
+	
+ - ISB1 (Sin orificio de payload):
+	- Dirección: 010 (T3)
+	- Dirección: 011 (T4)
+	
+ - ISA2 (Sin micro):
+	- Dirección: 100 (T5)
+	- Dirección: 101 (T6)
+	
+ - ISB2 (Con orificio de payload):
+	- Dirección: 110 (T7)
+	- Dirección: 111 (T8)
+	
+
+	
+
+ 
